@@ -1,5 +1,6 @@
 # Using official python runtime base image
-FROM python:3.13.0a1-alpine
+#FROM python:3.13.0a1-alpine #Snyk recommended to upgrade to python:3.13.0a3-alpine to fix 5 vulnerabilities
+FROM python:3.13.0a3-alpine
 
 # Set the application directory
 WORKDIR /app
