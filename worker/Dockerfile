@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.0.0-sdk
+FROM microsoft/dotnet:3.0.0-preview2-runtime-deps-bionic
 
 WORKDIR /code
 
